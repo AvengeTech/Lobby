@@ -1,0 +1,21 @@
+name: Lobby
+description: Lobby plugin where all lobby features are on AvengeTech.
+author: mal0ne_23
+api: [5.0.0]
+version: 1.6.0
+main: lobby\Lobby
+
+depend:
+- Core
+
+permissions:
+ lobby.perm:
+  description: mmmk bitch
+  default: true
+ lobby.staff:
+  description: pee
+  default: false
+ lobby.tier3:
+  description: poo
+  default: false
+
